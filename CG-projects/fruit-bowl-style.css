@@ -1,0 +1,157 @@
+html {
+	width: 1024px;
+	height: auto;
+	margin: auto;
+	/*overflow: hidden;*/
+}
+
+.navbar img {
+	display: inline-block;
+	margin: 20px 0 20px 50px;
+}
+
+.navbar ul {
+	display: inline-block;
+	position: relative;
+	top: -30px;
+	left: 200px;
+}
+
+.navbar li {
+	display: inline-block;
+	margin-right: 20px;
+	font-size: 24px;
+	font-family: 'Orbitron', sans-serif;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: #545cd5;
+}
+
+.overline {
+	position: relative;
+    bottom: 25px;
+    left: 40px;
+	display: inline-block;
+	width: 35px;
+	border-top: 3px solid rgba(84, 92, 213, 0.4);
+	border-radius: 2px;
+}
+
+#line2 {
+	border-top: 3px solid rgb(84, 92, 213);
+}
+
+/* GALLERY */
+
+.gallery {
+  position: relative;
+  top: -20px;
+}
+.gallery:hover .thumb {
+  opacity: .7;
+}
+.thumb {
+  height: 180px;
+  width: 20.5%;
+  background: no-repeat center center;
+  background-size: cover;
+  transition: opacity 600ms;  
+}
+.gallery .thumb:hover {
+  opacity: 1; /* overrides blur, so active img is not blurred */
+}
+.thumb:before, .thumb:after { 
+  opacity: 0; 
+  width: 45%;
+}
+.thumb:last-of-type:before, .thumb:last-of-type:after { 
+	opacity: 1; 
+}
+.thumb:hover:before, .thumb:hover:after { 
+  z-index: 100; /* so this image stays on top */
+  opacity: 1;
+  transition: opacity 2000ms;
+}
+/* this is the full-size image  */
+.thumb:before { 
+  content: '';
+  position: absolute;
+  top: 0; left: 20.5%;
+  width: 780px;
+  height: 540px;
+  padding-left: 20px; /* creates gap */
+  background: inherit;
+  background-position: 20px center; /* moves the image slightly right so there's a gap between thumbnails and full-size */
+}
+/* this is the caption */
+.thumb:after {
+  content: attr(data-caption);
+  position: absolute;
+  bottom: 0;
+  left: 15%;
+  height: 1em;
+  padding-bottom: .5em;
+  text-align: center;
+  font-size: 1.4rem;
+  font-style: italic;
+  color: #fff;
+}
+
+/*
+ * FRUIT BOWL IMAGE
+ */
+.thumb.bowl1 {
+  background-image: url(FruitBowl/fruitScene.png);
+}
+.thumb.bowl2 {
+  background-image: url(FruitBowl/fruitScene2.png);
+}
+.thumb.bowl3 {
+  background-image: url(FruitBowl/fruitScene1.png);
+}
+
+/*
+ * PROJECTS DESCRIPTION
+ */
+.collection {
+  width: 80px;
+  height: 50px;
+  z-index: 100;
+  position: relative;
+  bottom: 550px;
+  left: 920px;
+}
+
+.diamond {
+  background-color: rgb(210, 210, 210);
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  position: relative;
+  /* Rotate */
+  -ms-transform: rotate(45deg); /* IE 9 */
+  -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+  transform: rotate(45deg);
+}
+
+#col1 {
+  top: 5px;
+  left: 32px;
+}
+
+#col2 {
+  top: 18px;
+  left: 0px;
+}
+
+#col3 {
+  top: 18px;
+  left: 7px;
+}
+
+#col4 {
+  top: 30px;
+  left: -25px;
+}

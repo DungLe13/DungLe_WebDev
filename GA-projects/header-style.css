@@ -1,0 +1,88 @@
+html {
+	width: 1024px;
+	height: auto;
+	margin: auto;
+	overflow: hidden;
+}
+
+.navbar img {
+	display: inline-block;
+	margin: 20px 0 20px 50px;
+}
+
+.navbar ul {
+	display: inline-block;
+	position: relative;
+	top: -30px;
+	left: 200px;
+}
+
+.navbar li {
+	display: inline-block;
+	margin-right: 20px;
+	font-size: 24px;
+	font-family: 'Orbitron', sans-serif;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: #545cd5;
+}
+
+.overline {
+	position: relative;
+    bottom: 25px;
+    left: 40px;
+	display: inline-block;
+	width: 35px;
+	border-top: 3px solid rgba(84, 92, 213, 0.4);
+	border-radius: 2px;
+}
+
+#line2 {
+	border-top: 3px solid rgb(84, 92, 213);
+}
+
+/*
+ * PROJECTS DESCRIPTION
+ */
+.collection {
+  width: 80px;
+  height: 50px;
+  z-index: 100;
+  position: relative;
+  bottom: 560px;
+  left: 920px;
+}
+
+.diamond {
+  background-color: rgb(210, 210, 210);
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  position: relative;
+  /* Rotate */
+  -ms-transform: rotate(45deg); /* IE 9 */
+  -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+  transform: rotate(45deg);
+}
+
+#col1 {
+  top: 5px;
+  left: 32px;
+}
+
+#col2 {
+  top: 18px;
+  left: 0px;
+}
+
+#col3 {
+  top: 18px;
+  left: 7px;
+}
+
+#col4 {
+  top: 30px;
+  left: -25px;
+}

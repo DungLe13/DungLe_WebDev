@@ -1,0 +1,37 @@
+.info h2 {
+	text-align: center;
+}
+
+.trivia {
+	width: 500px;
+	text-align: justify;
+	padding: 0 10px;
+	margin-left: 30px;
+	border: 3px groove olivedrab;
+    border-radius: 30px;
+    background-color: rgba(107, 20, 204, 0.5);
+}
+
+.online-art {
+	text-align: justify;
+	width: 600px;
+	float: right;
+	margin-top: -300px;
+	margin-right: 50px;
+}
+
+.online-art li, .offline-art li {
+	font-size: 21px;
+}
+
+.version li {
+	font-size: 18px;
+	display: inline-block;
+	margin-right: 30px;
+}
+
+.offline-art {
+	text-align: justify;
+	width: 600px;
+	margin-left: 50px;
+}

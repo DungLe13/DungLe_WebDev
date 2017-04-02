@@ -1,0 +1,321 @@
+html {
+	width: 1024px;
+	height: auto;
+	margin: auto;
+}
+
+.navbar {
+	margin-bottom: -20px;
+}
+
+.navbar img {
+	display: inline-block;
+	margin: 20px 0 20px 50px;
+}
+
+.navbar ul {
+	display: inline-block;
+	position: relative;
+	top: -30px;
+	left: 200px;
+}
+
+.navbar li {
+	display: inline-block;
+	margin-right: 20px;
+	font-size: 24px;
+	font-family: 'Orbitron', sans-serif;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: #545cd5;
+}
+
+.overline {
+	position: relative;
+    bottom: 25px;
+    left: 40px;
+	display: inline-block;
+	width: 35px;
+	border-top: 3px solid rgba(84, 92, 213, 0.4);
+	border-radius: 2px;
+}
+
+#line2 {
+	border-top: 3px solid rgb(84, 92, 213);
+}
+
+.content-wrap {
+	background-color: #c4c6d3;
+	height: 550px;
+	padding-top: 10px;
+}
+
+.sub-navbar ul {
+	text-align: center;
+    font-size: 18px;
+    font-family: sans-serif;
+    word-spacing: 3px;
+}
+
+.sub-navbar ul li {
+	display: inline-block;
+}
+
+.sub-navbar a {
+	text-decoration: none;
+	color: rgb(96, 96, 96);
+}
+
+.sub-navbar a:hover {
+	color: black;
+}
+
+.items {
+	height: 500px;
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
+
+.main {
+	width: 213px;
+	height: 213px;
+	background-color: gray;
+	position: relative;
+	display: inline-block;
+	/* Rotate */
+	-ms-transform: rotate(45deg); /* IE 9 */
+	-webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+	transform: rotate(45deg);
+}
+
+#item1 {
+	left: 80px;
+	top: 50px;
+	background: url(background/hotelroom.png) center no-repeat;
+}
+
+#item2 {
+	left: 30px;
+	top: 215px;
+	background: url(background/left.jpg) center no-repeat;
+}
+
+#item3 {
+	left: -20px;
+	top: 50px;
+	background: url(background/dungbio.png) center no-repeat;
+}
+
+#item4 {
+	left: -70px;
+	top: 215px;
+	background: url(background/ballgame.png) center no-repeat;
+}
+
+#item5 {
+	left: 750px;
+	top: -165px;
+	background: url(background/profile.png) center no-repeat;
+}
+
+#item6 {
+	left: 700px;
+	top: 0px;
+	background: url(background/fruitBig.png) center no-repeat;
+}
+
+#item7 {
+	top: -167px;
+	left: 650px;
+	background: url(background/film.png) center no-repeat;
+}
+
+#item8 {
+	top: 0px;
+	left: 600px;
+	background: url(background/netart3.png) center no-repeat;
+}
+
+#item9 {
+	top: -383px;
+	left: 1420px;
+	background: url(background/shootingGame.png) center no-repeat;
+}
+
+#item10 {
+	top: -218px;
+	left: 1370px;
+	background: url(background/stopwatch2.png) center no-repeat;
+}
+
+#item11 {
+	top: -384px;
+	left: 1320px;
+	background: url(background/noys1.png) center no-repeat;
+}
+
+#item12 {
+	top: -218px;
+	left: 1270px;
+	background: url(background/jsWeb.png) center no-repeat;
+}
+
+/* 
+ * COMPUTER GRAPHICS
+ */
+#item1-1 {
+	left: 80px;
+	top: 50px;
+	background: url(background/hotelroom.png) center no-repeat;
+}
+
+#item1-2 {
+	left: 30px;
+	top: 215px;
+	background: url(background/fruitBig.png) center no-repeat;
+}
+
+#item1-3 {
+	left: -20px;
+	top: 50px;
+	background: url(background/ToT.png) center no-repeat;
+}
+
+#item1-4 {
+	left: -70px;
+	top: 215px;
+}
+
+/*
+ * GENERATIVE ARTS
+ */
+#item2-1 {
+	left: 80px;
+	top: 50px;
+	background: url(background/left.jpg) center no-repeat;
+}
+
+#item2-2 {
+	left: 30px;
+	top: 215px;
+	background: url(background/film.png) center no-repeat;
+}
+
+#item2-3 {
+	left: -20px;
+	top: 50px;
+	background: url(background/finalGrande.png) center no-repeat;
+}
+
+#item2-4 {
+	left: -70px;
+	top: 215px;
+	background: url(background/bezier.png) center no-repeat;
+}
+
+#item2-5 {
+	left: 750px;
+	top: -165px;
+}
+
+#item2-6 {
+	left: 700px;
+	top: 0px;
+}
+
+/*
+ * DIGITAL ARTS
+ */
+#item3-1 {
+	left: 80px;
+	top: 50px;
+	background: url(background/dungbio.png) center no-repeat;
+}
+
+#item3-2 {
+	left: 30px;
+	top: 215px;
+	background: url(background/netart3.png) center no-repeat;
+}
+
+#item3-3 {
+	left: -20px;
+	top: 50px;
+	background: url(background/netart4.png) center no-repeat;
+}
+
+#item3-4 {
+	left: -70px;
+	top: 215px;
+	background: url(background/proposal.gif) center no-repeat;
+}
+
+#item3-5 {
+	left: 750px;
+	top: -165px;
+	background: url(background/jsWeb.png) center no-repeat;
+}
+
+#item3-6 {
+	left: 700px;
+	top: 0px;
+	background: url(background/noys1.png) center no-repeat;
+}
+
+#item3-7 {
+	top: -167px;
+	left: 650px;
+}
+
+/*
+ * GAME PROGRAMMING
+ */
+#item4-1 {
+	left: 80px;
+	top: 50px;
+	background: url(background/ballgame.png) center no-repeat;
+}
+
+#item4-2 {
+	left: 30px;
+	top: 215px;
+	background: url(background/shootingGame.png) center no-repeat;
+}
+
+#item4-3 {
+	left: -20px;
+	top: 50px;
+}
+
+/*
+ * IOS PROGRAMMING
+ */
+#item5-1 {
+	left: 80px;
+	top: 50px;
+	background: url(background/profile.png) center no-repeat;
+}
+
+#item5-2 {
+	left: 30px;
+	top: 215px;
+	background: url(background/stopwatch2.png) center no-repeat;
+}
+
+#item5-3 {
+	left: -20px;
+	top: 50px;
+	background: url(background/todo.png) center no-repeat;
+}
+
+#item5-4 {
+	left: -70px;
+	top: 215px;
+}
+
+#item5-5 {
+	left: 750px;
+	top: -165px;
+}
